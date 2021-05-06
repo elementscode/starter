@@ -1,0 +1,16 @@
+@import 'app/shared/styles/container';
+@import 'app/shared/styles/button';
+@import 'app/shared/styles/form';
+
+.bg-texture {
+  background-image: url(app/shared/images/texture.svg);
+  background-repeat: no-repeat;
+  background-position: 20px 40px;
+  background-size: 600px 600px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 440px;
+  height: 400px;
+  z-index: -1;
+}

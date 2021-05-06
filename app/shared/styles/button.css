@@ -1,0 +1,15 @@
+button, input[type=submit] {
+  font-size: 1em;
+  font-weight: 700;
+  padding: var(--space-sm) var(--space-xl);
+  border: none;
+  border-radius: 0.25rem;
+  background: var(--color-blue-400);
+  color: var(--color-white);
+  transition: all 100ms ease-in-out;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+button:hover, button:active, input[type=submit]:hover, input[type=submit]:active {
+  background: var(--color-blue-500);
+}

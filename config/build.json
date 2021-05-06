@@ -1,0 +1,8 @@
+{
+  "assetPath": "assets",
+  "assetUrl": "/assets",
+  "env": {
+    "production": {
+    }
+  }
+}

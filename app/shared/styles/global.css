@@ -1,0 +1,33 @@
+@import 'app/shared/styles/reset';
+@import 'app/shared/styles/typography';
+@import 'app/shared/styles/space';
+@import 'app/shared/styles/colors';
+@import 'app/shared/styles/components';
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  font-size: var(--text-base-size);
+  transition: font-size 100ms ease-in-out;
+  line-height: var(--body-line-height);
+}
+
+h1, h2, h3, h4 {
+  font-color: var(--color-black);
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-link-visited);
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: bold;
+}

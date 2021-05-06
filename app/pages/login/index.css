@@ -1,0 +1,19 @@
+@import 'app/shared/styles/global';
+
+.login-page > .container {
+  margin: var(--space-xl) auto;
+  max-width: 400px;
+}
+
+.login-page form {
+  margin-top: var(--space-lg);
+}
+
+.login-page form > div {
+  margin-bottom: var(--space-md);
+}
+
+.login-page form input {
+  width: 100%;
+  max-width: 400px;
+}

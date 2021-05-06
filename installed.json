@@ -1,0 +1,666 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "@elements/application": {
+      "spec": "1.0.0-alpha.110",
+      "version": "1.0.0-alpha.110",
+      "kind": "dependencies"
+    },
+    "@types/node": {
+      "spec": ">=14.14.20 <14.15.0",
+      "version": "14.14.44",
+      "kind": "devDependencies"
+    },
+    "@types/react": {
+      "spec": ">=16.14.2 <16.15.0",
+      "version": "16.14.6",
+      "kind": "devDependencies"
+    },
+    "autoprefixer": {
+      "spec": ">=10.2.1 <10.3.0",
+      "version": "10.2.5",
+      "kind": "dependencies"
+    },
+    "classnames": {
+      "spec": ">=2.2.6 <2.3.0",
+      "version": "2.2.6",
+      "kind": "dependencies"
+    },
+    "postcss": {
+      "spec": ">=8.2.4 <8.3.0",
+      "version": "8.2.14",
+      "kind": "dependencies"
+    }
+  },
+  "packages": {
+    "@elements/application": {
+      "1.0.0-alpha.110": {
+        "@elements/compiler": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/config": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/error": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/html": {
+          "spec": "1.0.0-alpha.110",
+          "version": "1.0.0-alpha.110",
+          "kind": "dependencies"
+        },
+        "@elements/json": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/parse": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/postgres": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/runtime": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "base64-url": {
+          "spec": ">=2.3.3 <2.4.0",
+          "version": "2.3.3",
+          "kind": "dependencies"
+        },
+        "debug": {
+          "spec": ">=4.1.1 <4.2.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "mime": {
+          "spec": ">=2.4.7 <2.5.0",
+          "version": "2.4.7",
+          "kind": "dependencies"
+        },
+        "nodemailer": {
+          "spec": ">=6.4.17 <6.5.0",
+          "version": "6.4.18",
+          "kind": "dependencies"
+        },
+        "path-to-regexp": {
+          "spec": ">=6.1.0 <6.2.0",
+          "version": "6.1.0",
+          "kind": "dependencies"
+        },
+        "url-parse": {
+          "spec": ">=1.4.7 <1.5.0",
+          "version": "1.4.7",
+          "kind": "dependencies"
+        },
+        "uuid": {
+          "spec": ">=8.1.0 <8.2.0",
+          "version": "8.1.0",
+          "kind": "dependencies"
+        },
+        "ws": {
+          "spec": ">=7.3.1 <7.4.0",
+          "version": "7.3.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/command": {
+      "1.0.0-alpha.109": {
+        "@elements/term": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/compiler": {
+      "1.0.0-alpha.109": {
+        "postcss": {
+          "spec": ">=8.2.4 <8.3.0",
+          "version": "8.2.14",
+          "kind": "dependencies"
+        },
+        "typescript": {
+          "spec": ">=4.0.5 <4.1.0",
+          "version": "4.0.7",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/config": {
+      "1.0.0-alpha.109": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/error": {
+      "1.0.0-alpha.109": {
+        "@elements/json": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/html": {
+      "1.0.0-alpha.110": {
+        "@elements/command": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/parse": {
+          "spec": "1.0.0-alpha.110",
+          "version": "1.0.0-alpha.110",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.110",
+          "version": "1.0.0-alpha.110",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": ">=0.7.3 <0.8.0",
+          "version": "0.7.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/job": {
+      "1.0.0-alpha.109": {
+        "@elements/term": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/json": {
+      "1.0.0-alpha.109": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/parse": {
+      "1.0.0-alpha.109": {
+        "@types/node": {
+          "spec": "latest",
+          "version": "15.0.2",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": "latest",
+          "version": "0.7.3",
+          "kind": "dependencies"
+        }
+      },
+      "1.0.0-alpha.110": {
+        "@types/node": {
+          "spec": "latest",
+          "version": "15.0.2",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": "latest",
+          "version": "0.7.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/postgres": {
+      "1.0.0-alpha.109": {
+        "@elements/config": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/error": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/job": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/json": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "@elements/term": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        },
+        "pg": {
+          "spec": ">=8.3.0 <8.4.0",
+          "version": "8.3.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/runtime": {
+      "1.0.0-alpha.109": {}
+    },
+    "@elements/term": {
+      "1.0.0-alpha.109": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.109",
+          "version": "1.0.0-alpha.109",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/utils": {
+      "1.0.0-alpha.109": {},
+      "1.0.0-alpha.110": {}
+    },
+    "@types/node": {
+      "14.14.44": {},
+      "15.0.2": {}
+    },
+    "@types/prop-types": {
+      "15.7.3": {}
+    },
+    "@types/react": {
+      "16.14.6": {
+        "@types/prop-types": {
+          "spec": ">=0.0.0",
+          "version": "15.7.3",
+          "kind": "dependencies"
+        },
+        "@types/scheduler": {
+          "spec": ">=0.0.0",
+          "version": "0.16.1",
+          "kind": "dependencies"
+        },
+        "csstype": {
+          "spec": ">=3.0.2 <4.0.0",
+          "version": "3.0.8",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@types/scheduler": {
+      "0.16.1": {}
+    },
+    "autoprefixer": {
+      "10.2.5": {
+        "browserslist": {
+          "spec": ">=4.16.3 <5.0.0",
+          "version": "4.16.6",
+          "kind": "dependencies"
+        },
+        "caniuse-lite": {
+          "spec": ">=1.0.30001196 <2.0.0",
+          "version": "1.0.30001223",
+          "kind": "dependencies"
+        },
+        "colorette": {
+          "spec": ">=1.2.2 <2.0.0",
+          "version": "1.2.2",
+          "kind": "dependencies"
+        },
+        "fraction.js": {
+          "spec": ">=4.0.13 <5.0.0",
+          "version": "4.0.13",
+          "kind": "dependencies"
+        },
+        "normalize-range": {
+          "spec": ">=0.1.2 <0.2.0",
+          "version": "0.1.2",
+          "kind": "dependencies"
+        },
+        "postcss-value-parser": {
+          "spec": ">=4.1.0 <5.0.0",
+          "version": "4.1.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "base64-url": {
+      "2.3.3": {}
+    },
+    "browserslist": {
+      "4.16.6": {
+        "caniuse-lite": {
+          "spec": ">=1.0.30001219 <2.0.0",
+          "version": "1.0.30001223",
+          "kind": "dependencies"
+        },
+        "colorette": {
+          "spec": ">=1.2.2 <2.0.0",
+          "version": "1.2.2",
+          "kind": "dependencies"
+        },
+        "electron-to-chromium": {
+          "spec": ">=1.3.723 <2.0.0",
+          "version": "1.3.727",
+          "kind": "dependencies"
+        },
+        "escalade": {
+          "spec": ">=3.1.1 <4.0.0",
+          "version": "3.1.1",
+          "kind": "dependencies"
+        },
+        "node-releases": {
+          "spec": ">=1.1.71 <2.0.0",
+          "version": "1.1.71",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "buffer-writer": {
+      "2.0.0": {}
+    },
+    "caniuse-lite": {
+      "1.0.30001223": {}
+    },
+    "classnames": {
+      "2.2.6": {}
+    },
+    "colorette": {
+      "1.2.2": {}
+    },
+    "csstype": {
+      "3.0.8": {}
+    },
+    "debug": {
+      "4.1.1": {
+        "ms": {
+          "spec": ">=2.1.1 <3.0.0",
+          "version": "2.1.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "electron-to-chromium": {
+      "1.3.727": {}
+    },
+    "escalade": {
+      "3.1.1": {}
+    },
+    "fraction.js": {
+      "4.0.13": {}
+    },
+    "inherits": {
+      "2.0.4": {}
+    },
+    "mime": {
+      "2.4.7": {}
+    },
+    "ms": {
+      "2.1.3": {}
+    },
+    "nanoid": {
+      "3.1.22": {}
+    },
+    "node-releases": {
+      "1.1.71": {}
+    },
+    "nodemailer": {
+      "6.4.18": {}
+    },
+    "normalize-range": {
+      "0.1.2": {}
+    },
+    "packet-reader": {
+      "1.0.0": {}
+    },
+    "path-to-regexp": {
+      "6.1.0": {}
+    },
+    "pg": {
+      "8.3.3": {
+        "buffer-writer": {
+          "spec": "2.0.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        },
+        "packet-reader": {
+          "spec": "1.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "pg-connection-string": {
+          "spec": ">=2.3.0 <3.0.0",
+          "version": "2.5.0",
+          "kind": "dependencies"
+        },
+        "pg-pool": {
+          "spec": ">=3.2.1 <4.0.0",
+          "version": "3.3.0",
+          "kind": "dependencies"
+        },
+        "pg-protocol": {
+          "spec": ">=1.2.5 <2.0.0",
+          "version": "1.5.0",
+          "kind": "dependencies"
+        },
+        "pg-types": {
+          "spec": ">=2.1.0 <3.0.0",
+          "version": "2.2.0",
+          "kind": "dependencies"
+        },
+        "pgpass": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.4",
+          "kind": "dependencies"
+        },
+        "semver": {
+          "spec": "4.3.2",
+          "version": "4.3.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "pg-connection-string": {
+      "2.5.0": {}
+    },
+    "pg-int8": {
+      "1.0.1": {}
+    },
+    "pg-pool": {
+      "3.3.0": {}
+    },
+    "pg-protocol": {
+      "1.5.0": {}
+    },
+    "pg-types": {
+      "2.2.0": {
+        "pg-int8": {
+          "spec": "1.0.1",
+          "version": "1.0.1",
+          "kind": "dependencies"
+        },
+        "postgres-array": {
+          "spec": ">=2.0.0 <2.1.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        },
+        "postgres-bytea": {
+          "spec": ">=1.0.0 <1.1.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "postgres-date": {
+          "spec": ">=1.0.4 <1.1.0",
+          "version": "1.0.7",
+          "kind": "dependencies"
+        },
+        "postgres-interval": {
+          "spec": ">=1.1.0 <2.0.0",
+          "version": "1.2.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "pgpass": {
+      "1.0.4": {
+        "split2": {
+          "spec": ">=3.1.1 <4.0.0",
+          "version": "3.2.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss": {
+      "8.2.14": {
+        "colorette": {
+          "spec": ">=1.2.2 <2.0.0",
+          "version": "1.2.2",
+          "kind": "dependencies"
+        },
+        "nanoid": {
+          "spec": ">=3.1.22 <4.0.0",
+          "version": "3.1.22",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": ">=0.6.1 <0.7.0",
+          "version": "0.6.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-value-parser": {
+      "4.1.0": {}
+    },
+    "postgres-array": {
+      "2.0.0": {}
+    },
+    "postgres-bytea": {
+      "1.0.0": {}
+    },
+    "postgres-date": {
+      "1.0.7": {}
+    },
+    "postgres-interval": {
+      "1.2.0": {
+        "xtend": {
+          "spec": ">=4.0.0 <5.0.0",
+          "version": "4.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "querystringify": {
+      "2.2.0": {}
+    },
+    "readable-stream": {
+      "3.6.0": {
+        "inherits": {
+          "spec": ">=2.0.3 <3.0.0",
+          "version": "2.0.4",
+          "kind": "dependencies"
+        },
+        "string_decoder": {
+          "spec": ">=1.1.1 <2.0.0",
+          "version": "1.3.0",
+          "kind": "dependencies"
+        },
+        "util-deprecate": {
+          "spec": ">=1.0.1 <2.0.0",
+          "version": "1.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "requires-port": {
+      "1.0.0": {}
+    },
+    "safe-buffer": {
+      "5.2.1": {}
+    },
+    "semver": {
+      "4.3.2": {}
+    },
+    "source-map": {
+      "0.6.1": {},
+      "0.7.3": {}
+    },
+    "split2": {
+      "3.2.2": {
+        "readable-stream": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.6.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "string_decoder": {
+      "1.3.0": {
+        "safe-buffer": {
+          "spec": ">=5.2.0 <5.3.0",
+          "version": "5.2.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "typescript": {
+      "4.0.7": {}
+    },
+    "url-parse": {
+      "1.4.7": {
+        "querystringify": {
+          "spec": ">=2.1.1 <3.0.0",
+          "version": "2.2.0",
+          "kind": "dependencies"
+        },
+        "requires-port": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "util-deprecate": {
+      "1.0.2": {}
+    },
+    "uuid": {
+      "8.1.0": {}
+    },
+    "ws": {
+      "7.3.1": {}
+    },
+    "xtend": {
+      "4.0.2": {}
+    }
+  }
+}

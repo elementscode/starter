@@ -1,0 +1,24 @@
+<template default>
+  <!doctype html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      {{meta}}
+      <title>{title}</title>
+      <link rel="apple-touch-icon" href="app/shared/favicons/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="app/shared/favicons/android-chrome-192x192.png" />
+      <link rel="icon" type="image/png" sizes="256x256" href="app/shared/favicons/android-chrome-256x256.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="app/shared/favicons/favicon-16x16.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="app/shared/favicons/favicon-32x32.png" />
+      <link e:for={style of styles} rel="stylesheet" href={style.url} data-loader-ignore={style.dataLoaderIgnore}>
+      <script e:for={script of scripts} src={script.url} data-loader-ignore={script.dataLoaderIgnore} async={script.async}></script>
+    </head>
+
+    <body>
+      <div id="app">
+        {{body}}
+      </div>
+    </body>
+  </html>
+</template>

@@ -1,0 +1,57 @@
+:root {
+  --font-family: sans-serif;
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+  --body-line-height: 1.5;
+  --heading-line-height: 1.3;
+  --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+  --text-sm: calc(1em / var(--text-scale-ratio));
+  --text-md: calc(1em * var(--text-scale-ratio));
+  --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+}
+
+@media only screen and (min-width: 768px) {
+  :root {
+    --text-base-size: 1.25em;
+    --text-scale-ratio: 1.25;
+  }
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+}
+
+small, .text-sm {
+  font-size: var(--text-sm);
+}
+
+h4, .text-md {
+  font-size: var(--text-md);
+}
+
+h3, .text-lg {
+  font-size: var(--text-lg);
+}
+
+h2, .text-xl {
+  font-size: var(--text-xl);
+}
+
+h1, .text-xxl {
+  font-size: var(--text-xxl);
+}
+
+.text-xxxl {
+  font-size: var(--text-xxxl);
+}
+
+p {
+  line-height: var(--body-line-height);
+}
+
+h1, h2, h3, h4, form legend {
+  line-height: var(--heading-line-height);
+}

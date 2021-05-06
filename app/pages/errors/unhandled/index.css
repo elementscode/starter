@@ -1,0 +1,13 @@
+.unhandled-page > .container {
+  margin: var(--space-xxl) auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.unhandled-page img {
+  margin-bottom: var(--space-sm);
+}
+
+.unhandled-page p {
+  margin: var(--space-sm) 0;
+}

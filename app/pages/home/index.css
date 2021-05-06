@@ -1,0 +1,73 @@
+@import 'app/shared/styles/global';
+
+.home-page .hero {
+  background-color: var(--color-blue-50);
+  padding: var(--space-sm);
+  text-align: left;
+}
+
+.home-page .hero h2 {
+  color: var(--color-blue-400);
+  margin-top: var(--space-sm);
+}
+
+.home-page .hero p {
+  margin-top: var(--space-sm);
+}
+
+.home-page .hero span {
+  color: var(--color-blue-400);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+.home-page .resources {
+  padding: var(--space-xl) var(--space-sm);
+}
+
+.home-page .resource-grid {
+  margin-top: var(--space-sm);
+}
+
+.home-page .resource-grid .resource {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-gap: 1rem;
+  padding: var(--space-lg) 0;
+}
+
+.home-page .resource-grid .resource svg {
+  width: 2.5rem;
+  color: var(--color-blue-300);
+  fill: currentColor;
+}
+
+.home-page .resource-grid .resource p {
+  margin: var(--space-sm) 0;
+}
+
+.home-page .resource-grid .resource button {
+  width: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-page .hero {
+    padding: var(--space-xl);
+  }
+
+  .home-page .resources {
+    padding: var(--space-xl);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-page .resource-grid {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1rem;
+    text-align: left;
+  }
+
+  .home-page .resource-grid .resource button {
+    width: 100%;
+  }
+}

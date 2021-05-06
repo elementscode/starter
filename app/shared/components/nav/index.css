@@ -1,0 +1,21 @@
+@import 'app/shared/styles/global';
+
+nav {
+  border-bottom: 1px solid var(--color-gray-100);
+}
+
+nav > .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav .logo {
+  max-width: 150px;
+  transition: opacity 100ms ease-in-out;
+}
+
+nav .logo:hover {
+  opacity: .7;
+  cursor: pointer;
+}

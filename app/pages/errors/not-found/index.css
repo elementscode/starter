@@ -1,0 +1,15 @@
+@import 'app/shared/styles/global';
+
+.not-found-page > .container {
+  margin: var(--space-xxl) auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.not-found-page img {
+  margin-bottom: var(--space-sm);
+}
+
+.not-found-page p {
+  margin: var(--space-sm) 0;
+}

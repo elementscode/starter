@@ -1,0 +1,23 @@
+import { Nav } from 'app/shared/components/nav';
+
+<template default>
+  <div class="login-page">
+    <Nav />
+
+    <div class="container">
+      <h1>Log in.</h1>
+      <form onsubmit={onSubmit(event)}>
+        <div>
+          <input type="email" name="user.email" placeholder="email" autocomplete="username" autofocus required>
+        </div>
+        <div>
+          <input type="password" name="user.password" placeholder="password" autocomplete="current-password" required>
+        </div>
+        <div>
+          <input type="submit" value="Continue"/>
+        </div>
+      </form>
+    </div>
+    <aside class="bg-texture"/>
+  </div>
+</template>
